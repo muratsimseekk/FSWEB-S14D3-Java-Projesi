@@ -15,6 +15,9 @@ public class Mitsubishi extends Car{
     public void accelerate() {
         System.out.println(getName() + " is accelerating .");
     }
+    public void justMitsubishi() {
+        System.out.println("Just Mitsubishi");
+    }
 
     @java.lang.Override
     public void brake() {
